@@ -6,6 +6,9 @@ vim.cmd("set shiftwidth=2")
 -- Set space as Leader and backslash as LocalLeader key
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
+-- vim.opt.number = true -- Always show absolute line numbers
+-- vim.opt.relativenumber = true -- Show relative line numbers as well
+
 -- Load your plugins, Lazy bootstrapping, etc.
 require("config.lazy")
 
